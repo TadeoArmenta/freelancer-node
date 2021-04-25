@@ -1,0 +1,20 @@
+{
+  "name": "freelancer-node",
+  "version": "1.0.0",
+  "description": "Wraper for freelancer.com api",
+  "main": "dist/index.js",
+  "repository": "https://github.com/TadeoArmenta/freelancer-node.git",
+  "author": "Tadeo Armenta <cgtarmenta@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  }
+}
