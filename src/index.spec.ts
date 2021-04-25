@@ -1,5 +1,7 @@
-import { hello } from ".";
+import { Freelancer } from "./freelancer";
 
-test("hello", () => {
-  expect(hello("foo")).toEqual("Hello foo");
+describe("Freelancer", () => {
+  // it("flatten() includes own name", () => {
+  //   expect(Freelancer.flatten({}, ["foo"])).toContain("foo");
+  // });
 });

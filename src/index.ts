@@ -1,3 +1,3 @@
-export function hello(name: string): string {
-    return `Hello ${name}`;
-}
+import * as Freelancer  from "./freelancer";
+export default Freelancer;
+Object.assign(module.exports, Freelancer);

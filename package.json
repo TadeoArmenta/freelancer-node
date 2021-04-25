@@ -9,7 +9,10 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "rollup": "rollup -c",
+    "test": "jest",
+    "test-build": "npm run build && node test-build.js",
+    "watch": "jest --watch"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
